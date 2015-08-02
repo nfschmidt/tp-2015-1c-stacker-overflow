@@ -1,0 +1,64 @@
+------------------------------------------------------------------------
+--------------------------------PRUEBA 1--------------------------------
+------------------------------------------------------------------------
+
+crearDirectorio / mr
+crearDirectorio /mr weather
+crearDirectorio /mr textos
+crearDirectorio / output
+crearDirectorio /output job1
+crearDirectorio /output job2y3
+
+
+subirArchivo /home/utnso/data-sets/201301hourly.txt /mr/weather 201301hourly.txt
+subirArchivo /home/utnso/data-sets/201302hourly.txt /mr/weather 201302hourly.txt
+subirArchivo /home/utnso/data-sets/201303hourly.txt /mr/weather 201303hourly.txt
+subirArchivo /home/utnso/data-sets/201304hourly.txt /mr/weather 201304hourly.txt
+
+subirArchivo /home/utnso/data-sets/gutenberg.txt /mr/textos gutenberg.txt
+subirArchivo /home/utnso/data-sets/linux.txt /mr/textos linux.txt
+
+------------------------------------------------------------------------
+--------------------------------PRUEBA 2--------------------------------
+------------------------------------------------------------------------
+
+crearDirectorio / sentiment
+crearDirectorio /output job4
+crearDirectorio /output job5
+
+subirArchivo /home/utnso/data-sets/kernel.txt /mr/textos kernel.txt
+
+subirArchivo /home/utnso/data-sets/tweet-1.csv /sentiment tweet-1.csv
+subirArchivo /home/utnso/data-sets/tweet-2.csv /sentiment tweet-2.csv
+subirArchivo /home/utnso/data-sets/tweet-3.csv /sentiment tweet-3.csv
+subirArchivo /home/utnso/data-sets/tweet-4.csv /sentiment tweet-4.csv
+subirArchivo /home/utnso/data-sets/tweet-5.csv /sentiment tweet-5.csv
+subirArchivo /home/utnso/data-sets/tweet-6.csv /sentiment tweet-6.csv
+subirArchivo /home/utnso/data-sets/tweet-7.csv /sentiment tweet-7.csv
+subirArchivo /home/utnso/data-sets/tweet-8.csv /sentiment tweet-8.csv
+subirArchivo /home/utnso/data-sets/tweet-9.csv /sentiment tweet-9.csv
+subirArchivo /home/utnso/data-sets/tweet-10.csv /sentiment tweet-10.csv
+subirArchivo /home/utnso/data-sets/tweet-11.csv /sentiment tweet-11.csv
+subirArchivo /home/utnso/data-sets/tweet-12.csv /sentiment tweet-12.csv
+subirArchivo /home/utnso/data-sets/tweet-13.csv /sentiment tweet-13.csv
+
+-----------------------------------------------------------
+-----------------ELIMINAR ARCHIVOS RESULTADOS--------------
+-----------------------------------------------------------
+
+eliminarArchivo /output/job1/max-temps.txt
+eliminarArchivo /output/job2y3/textos-nocomb.txt
+eliminarArchivo /output/job2y3/textos-comb.txt	
+eliminarArchivo /output/job4/rep-letras.txt
+eliminarArchivo /output/job5/tweetssent.csv
+
+-----------------------------------------------------------
+-------------------------MD5 ARCHIVOS----------------------
+-----------------------------------------------------------
+md5 /output/job1/max-temps.txt
+md5 /output/job2y3/textos-nocomb.txt
+md5 /output/job2y3/textos-comb.txt	
+md5 /output/job4/rep-letras.txt
+md5 /output/job5/tweetssent.csv
+
+

@@ -1,0 +1,3 @@
+Este es el registro 1
+Este es el registro 2
+Este no es un registro porque no termina con salto de linea

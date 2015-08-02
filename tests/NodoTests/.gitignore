@@ -1,0 +1,7 @@
+/Debug/NodoTests
+/Debug/test/*.o
+/Debug/test/*.d
+/Debug/src/*.o
+/Debug/src/*.d
+/Release/
+/Debug/
